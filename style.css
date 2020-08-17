@@ -16,8 +16,15 @@ header h1 a:hover {
 h2{
   color:aqua;
 }
-/*  body   */
+h3 a {
+  color: yellow;
+}
+h3 a:hover{
+  color: purple;
+}
 
+
+/*  body   */
 
 body {
 	background-color: rgb(223, 24, 24)
@@ -47,9 +54,11 @@ div{
   border: 30px solid #000;
   background-color: rgba(180, 177, 162, 0.829);
 }
+
 footer {
     background-color:rgba(180, 177, 162, 0.829);
     margin: 200px 0 0 0;
     padding: 20px 0;
     border: 10px solid #000;
 }
+
