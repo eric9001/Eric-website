@@ -1,6 +1,4 @@
-/*  header  */
-
-
+/*header color and style*/
 header h1 {
 	font-family: Verdana;
 	font-size: 40px;
@@ -13,9 +11,15 @@ header h1 a  {
 header h1 a:hover {
 	color: rgb(14, 190, 73);
 }
+
+
+/*color for intro and about me titles*/
 h2{
   color:aqua;
 }
+
+
+/*footer link colors*/
 h3 a {
   color: yellow;
 }
@@ -24,17 +28,23 @@ h3 a:hover{
 }
 
 
-/*  body   */
+/*  body & rest  */
 
 body {
 	background-color: rgb(223, 24, 24)
 }
-
+div{
+  border: 30px solid #000;
+  background-color: rgba(180, 177, 162, 0.829);
+}
 img {
 	width: 450px;
   height: 615px;
   margin-left: 420px;
 }
+
+
+/*container styles*/
 .textContainer {
   width: 300px;
   margin: 20px auto 0 auto;
@@ -50,15 +60,12 @@ img {
 .imageContainer {
   padding-top: 15px;
 }
-div{
-  border: 30px solid #000;
-  background-color: rgba(180, 177, 162, 0.829);
-}
 
+
+/*footer styles*/
 footer {
     background-color:rgba(180, 177, 162, 0.829);
     margin: 200px 0 0 0;
     padding: 20px 0;
     border: 10px solid #000;
 }
-
